@@ -49,7 +49,6 @@ void loop() {
       }
       else if(ch == ',') {
           finger[num]*=num_flag;
-          for(int i=0;i<=7;++i)
           num_flag=1;
           num++;
       }
